@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+  }
+   input#name:invalid:focus{
+    border:1px solid blue;
+    }
+  @font-face {
+      font-style: regular;
+      font-family: "EuclidCircularA-Regular";
+      src: url("/html/online-compiler/fonts/EuclidCircularA-Regular.otf");
+  }
+    
+  h1 {
+      margin: 18px;
+      font-size: 26px;
+      font-weight: 620;
+      line-height: 38px;
+      font-family: EuclidCircularA-Regular;
+  }
+    
+  p {
+    color: rgba(37, 38, 94, 0.87) ;
+      font-size: 18px;
+      font-weight: 420;
+      line-height: 26px;
+      margin: auto 18px;
+      font-style: normal;
+      font-family: EuclidCircularA-Regular;
+  }
